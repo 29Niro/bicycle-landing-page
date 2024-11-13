@@ -40,51 +40,51 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-primary text-white transform ${
+        className={`fixed top-0 left-0 h-full w-64 bg-white text-black transform ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         } transition-transform duration-300 ease-in-out z-20`}
       >
-        <div className="p-4 flex items-center justify-between">
-          <div className="flex justify-center items-center gap-2">
+        <div className="p-4 bg-primary flex items-center justify-between">
+          <div className="flex text-white justify-center items-center gap-2">
             <img src={Logo} alt="logo" className="h-8 w-8 md:h-12 md:w-12" />
             <h1 className="text-xl font-bold">Bicycle Store</h1>
           </div>
           <button onClick={toggleMenu} className="focus:outline-none">
-            <FiX size={24} />
+            <FiX size={24} color="white" />
           </button>
         </div>
         <nav className="flex flex-col space-y-2 p-4">
           <a
             href="#welcome"
-            className="block py-2 px-4 hover:bg-secondary/50"
+            className="block py-2 px-4 hover:bg-primary/30 rounded-full"
             onClick={toggleMenu}
           >
             Home
           </a>
           <a
             href="#about"
-            className="block py-2 px-4 hover:bg-secondary/50"
+            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
             onClick={toggleMenu}
           >
             About
           </a>
           <a
             href="#showcase"
-            className="block py-2 px-4 hover:bg-secondary/50"
+            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
             onClick={toggleMenu}
           >
             Showcase
           </a>
           <a
             href="#testimonials"
-            className="block py-2 px-4 hover:bg-secondary/50"
+            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
             onClick={toggleMenu}
           >
             Testimonials
           </a>
           <a
             href="#contact"
-            className="block py-2 px-4 hover:bg-secondary/50"
+            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
             onClick={toggleMenu}
           >
             Contact
