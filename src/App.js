@@ -3,11 +3,11 @@ import Navbar from './sections/Navbar';
 import Welcome from './sections/Welcome';
 import AboutUs from './sections/AboutUs';
 import ProductShowcase from './sections/ProductShowcase';
-import Testimonials from './sections/Testimonials';
 import CallToAction from './sections/CallToAction';
 import ContactUs from './sections/ContactUs';
 import Footer from './sections/Footer';
 import {FaArrowAltCircleUp} from 'react-icons/fa';
+import TestimonialCarousel from './sections/TestimonialCarousel';
 
 function App() {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
@@ -45,7 +45,7 @@ function App() {
         <ProductShowcase />
       </div>
       <div id="testimonials">
-        <Testimonials />
+        <TestimonialCarousel />
       </div>
       <CallToAction />
       <div id="contact">
@@ -59,7 +59,7 @@ function App() {
           className="fixed bottom-4 right-4 bg-primary text-white h-10 w-10 rounded-full shadow-lg hover:bg-accent transition flex items-center justify-center"
           aria-label="Scroll to top"
         >
-          <FaArrowAltCircleUp size={30}/>
+          <FaArrowAltCircleUp size={30} />
         </button>
       )}
     </div>
