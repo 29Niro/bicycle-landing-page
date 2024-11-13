@@ -34,7 +34,7 @@ const ProductShowcase = () => {
         viewport={{ once: false }}
         transition={{ duration: 1, ease: 'easeOut' }}
       >
-        <span className="text-primary">PRODUCT</span> SHOWCASE
+        <span className="text-primary">Product</span> Showcase
       </motion.h2>
 
       <div className="flex flex-col md:flex-row items-center w-full max-w-5xl">

@@ -67,7 +67,7 @@ const AboutUs = () => {
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
-          <span className="text-primary">ABOUT</span> US
+          <span className="text-primary">About</span> Us
         </h2>
         <p className="text-sm md:text-base mb-8">
           Discover Sphynx Bicycles, engineered for performance and built for
