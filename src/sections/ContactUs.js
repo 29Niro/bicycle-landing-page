@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useFormik } from 'formik';
+import { useSnackbar } from 'notistack';
 import * as Yup from 'yup';
 
 const ContactUs = () => {
+  const [loading, setLoading] = useState(false);
+  const { enqueueSnackbar } = useSnackbar();
+
   const formik = useFormik({
     initialValues: { name: '', email: '', message: '' },
     validationSchema: Yup.object({
@@ -10,8 +14,15 @@ const ContactUs = () => {
       email: Yup.string().email('Invalid email address').required('Required'),
       message: Yup.string().required('Required'),
     }),
-    onSubmit: (values) => {
-      console.log(values);
+    onSubmit: async (values, { resetForm }) => {
+      setLoading(true);
+
+      setTimeout(() => {
+        console.log(values);
+        setLoading(false);
+        enqueueSnackbar('Message sent successfully!', { variant: 'success' });
+        resetForm();
+      }, 2000);
     },
   });
 
@@ -76,8 +87,9 @@ const ContactUs = () => {
         <button
           type="submit"
           className="w-full py-3 bg-primary text-white font-bold rounded-full hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary"
+          disabled={loading}
         >
-          Send Message
+          {loading ? 'Sending...' : 'Send Message'}
         </button>
       </form>
     </section>
