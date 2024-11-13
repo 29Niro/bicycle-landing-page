@@ -76,7 +76,7 @@ const CallToAction = () => {
         <img
           src={Offer}
           alt="Product"
-          className="object-cover w-full sm:h-80 sm:w-auto rounded-lg shadow-lg"
+          className="object-cover w-full sm:h-96 sm:w-auto rounded-lg shadow-lg"
         />
       </motion.div>
     </section>

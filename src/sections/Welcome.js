@@ -43,7 +43,7 @@ const Welcome = () => {
         />
 
         <motion.div
-          className="absolute top-1/4 left-10 flex items-center space-x-2"
+          className="absolute md:top-1/2 top-1/4 md:left-10 flex items-center space-x-2"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
@@ -56,7 +56,7 @@ const Welcome = () => {
         </motion.div>
 
         <motion.div
-          className="absolute top-1/4 right-10 flex items-center space-x-2"
+          className="absolute md:top-1/3 top-1/4 md:right-56 right-12 flex items-center space-x-2"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
