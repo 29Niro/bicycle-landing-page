@@ -79,7 +79,7 @@ const Welcome = () => {
         </motion.h1>
 
         <motion.div
-          className="mt-4 flex items-center justify-center gap-2"
+          className="mt-4 flex flex-col md:flex-row items-center justify-center gap-2"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.2, duration: 0.8 }}
