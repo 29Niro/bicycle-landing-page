@@ -92,6 +92,13 @@ const ContactUs = () => {
           {loading ? 'Sending...' : 'Send Message'}
         </button>
       </form>
+
+      <div className="max-w-2xl mx-auto text-left mt-8 space-y-4">
+        <h3 className="text-xl md:text-2xl">Contact info</h3>
+        <p className="text-md md:text-lg">📍 1234 Example St, City, Country</p>
+        <p className="text-md md:text-lg">📞 +1 (123) 456-7890</p>
+        <p className="text-md md:text-lg">📧 email@example.com</p>
+      </div>
     </section>
   );
 };
