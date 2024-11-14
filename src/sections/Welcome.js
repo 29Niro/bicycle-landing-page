@@ -26,13 +26,15 @@ const Welcome = () => {
 
       <div className="relative max-w-4xl mx-auto w-full">
         <motion.h1
-          className="mt-8 md:mt-20 text-3xl md:text-7xl font-bold"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0, duration: 0.8 }}
+          className="mt-8 md:mt-20 text-3xl md:text-7xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0, scale: [1, 1.1, 1] }}
+          transition={{ delay: 0.2, duration: 0.8, ease: 'easeOut' }}
+          whileHover={{ scale: 1.05 }}
         >
           GET YOUR DREAM BIKE
         </motion.h1>
+
         <motion.img
           src={Hero}
           alt="Electric Bicycle"
