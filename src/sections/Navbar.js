@@ -14,20 +14,35 @@ const Navbar = () => {
           <img src={Logo} alt="logo" className="h-8 w-8 md:h-12 md:w-12" />
           <h1 className="text-xl font-bold">Bicycle Store</h1>
         </div>
-        <div className="hidden md:flex space-x-4">
-          <a href="#welcome" className="hover:underline">
+        <div className="hidden md:flex space-x-8">
+          <a
+            href="#welcome"
+            className="hover:bg-white hover:text-primary py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          >
             Home
           </a>
-          <a href="#about" className="hover:underline">
+          <a
+            href="#about"
+            className="hover:bg-white hover:text-primary py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          >
             About
           </a>
-          <a href="#showcase" className="hover:underline">
+          <a
+            href="#showcase"
+            className="hover:bg-white hover:text-primary py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          >
             Showcase
           </a>
-          <a href="#testimonials" className="hover:underline">
+          <a
+            href="#testimonials"
+            className="hover:bg-white hover:text-primary py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          >
             Testimonials
           </a>
-          <a href="#contact" className="hover:underline">
+          <a
+            href="#contact"
+            className="bg-white text-primary hover:bg-white/80 hover:text-black  py-2 px-4 rounded-md transition duration-300 ease-in-out"
+          >
             Contact
           </a>
         </div>
@@ -53,38 +68,38 @@ const Navbar = () => {
             <FiX size={24} color="white" />
           </button>
         </div>
-        <nav className="flex flex-col space-y-2 p-4">
+        <nav className="flex flex-col space-y-4 p-4">
           <a
             href="#welcome"
-            className="block py-2 px-4 hover:bg-primary/30 rounded-full"
+            className="block py-2 px-4 hover:bg-primary/30 rounded-md transition duration-300 ease-in-out"
             onClick={toggleMenu}
           >
             Home
           </a>
           <a
             href="#about"
-            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
+            className="block py-2 px-4 hover:bg-primary/30 rounded-md transition duration-300 ease-in-out"
             onClick={toggleMenu}
           >
             About
           </a>
           <a
             href="#showcase"
-            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
+            className="block py-2 px-4 hover:bg-primary/30 rounded-md transition duration-300 ease-in-out"
             onClick={toggleMenu}
           >
             Showcase
           </a>
           <a
             href="#testimonials"
-            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
+            className="block py-2 px-4 hover:bg-primary/30 rounded-md transition duration-300 ease-in-out"
             onClick={toggleMenu}
           >
             Testimonials
           </a>
           <a
             href="#contact"
-            className="block py-2 px-4  hover:bg-primary/30 rounded-full"
+            className="block py-2 px-4 hover:bg-primary/30 rounded-md transition duration-300 ease-in-out"
             onClick={toggleMenu}
           >
             Contact
