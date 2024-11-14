@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import BackgroundImg from '../assets/click-to-action/backgroundImg.jpg';
-import Offer from '../assets/click-to-action/offer1.png';
 
 const CallToAction = () => {
   const [timeLeft, setTimeLeft] = useState(5000);
@@ -35,7 +33,7 @@ const CallToAction = () => {
     <section
       className="md:px-28 px-4 py-16 bg-primary text-white text-center bg-cover bg-center relative flex flex-col sm:flex-row items-center justify-between"
       style={{
-        backgroundImage: `url(${BackgroundImg})`,
+        backgroundImage: `url(https://res.cloudinary.com/dregpcfhh/image/upload/v1731609787/assets/click-to-action/backgroundImg.jpg)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
       }}
@@ -74,7 +72,7 @@ const CallToAction = () => {
         transition={{ duration: 0.8, ease: 'easeInOut' }}
       >
         <img
-          src={Offer}
+          src="https://res.cloudinary.com/dregpcfhh/image/upload/v1731609780/assets/click-to-action/offer1.png"
           alt="Product"
           className="object-cover w-full sm:h-96 sm:w-auto rounded-lg shadow-lg"
         />

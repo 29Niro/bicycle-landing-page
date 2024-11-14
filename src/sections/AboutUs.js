@@ -6,7 +6,6 @@ import {
   FaMapMarkedAlt,
   FaShieldAlt,
 } from 'react-icons/fa';
-import about from '../assets/about/about.png';
 import FeatureCard from '../components/FeatureCard';
 
 const AboutUs = () => {
@@ -96,7 +95,7 @@ const AboutUs = () => {
         transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
       >
         <img
-          src={about}
+          src="https://res.cloudinary.com/dregpcfhh/image/upload/v1731609662/assets/about/about.png"
           alt="Sphynx Model Bicycle"
           className="w-full sm:w-96 md:w-[650px] object-contain"
         />

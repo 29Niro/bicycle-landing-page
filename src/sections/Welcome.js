@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Hero from '../assets/hero/bicycle-hero.png';
 
 const Welcome = () => {
   return (
@@ -36,7 +35,7 @@ const Welcome = () => {
         </motion.h1>
 
         <motion.img
-          src={Hero}
+          src="https://res.cloudinary.com/dregpcfhh/image/upload/v1731608747/assets/hero/bicycle-hero.png"
           alt="Electric Bicycle"
           className="w-full object-contain max-w-full"
           initial={{ opacity: 0, scale: 0.8 }}

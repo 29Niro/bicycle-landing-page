@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const images = Array.from({ length: 40 }, (_, i) =>
-  require(`../assets/360view/GTBIKE_DEMO_${i + 1}.jpg`)
+const images = Array.from(
+  { length: 40 },
+  (_, i) =>
+    `https://res.cloudinary.com/dregpcfhh/image/upload/v1731608696/assets/360view/GTBIKE_DEMO_${
+      i + 1
+    }.jpg`
 );
 
 const ProductShowcase = () => {
