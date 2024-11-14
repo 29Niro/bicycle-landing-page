@@ -11,7 +11,7 @@ const Welcome = () => {
         hidden: { opacity: 0, y: -50 },
         visible: { opacity: 1, y: 0, transition: { duration: 1 } },
       }}
-      className="h-screen bg-gray-100 flex flex-col items-center justify-center text-center p-4 overflow-x-hidden"
+      className="h-screen md:h-auto bg-gray-200 flex flex-col items-center justify-center text-center p-4"
     >
       <motion.div
         className="absolute right-0 top-0 left-0 bottom-0 h-full w-full flex items-center justify-center z-0 opacity-20"
@@ -69,7 +69,7 @@ const Welcome = () => {
         </motion.div>
 
         <motion.h1
-          className="mt-8 text-2xl md:text-3xl font-bold"
+          className="mt-8 text-2xl md:text-3xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
