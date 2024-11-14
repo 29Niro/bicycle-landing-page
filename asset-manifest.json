@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bicycle-landing-page/static/css/main.dea50c57.css",
-    "main.js": "/bicycle-landing-page/static/js/main.089d1d80.js",
+    "main.css": "/bicycle-landing-page/static/css/main.6a86e2b9.css",
+    "main.js": "/bicycle-landing-page/static/js/main.48714b08.js",
     "static/media/backgroundImg.jpg": "/bicycle-landing-page/static/media/backgroundImg.a6d14fbc1e166d200564.jpg",
     "static/media/bicycle-hero.png": "/bicycle-landing-page/static/media/bicycle-hero.d100cbbfb5c1fedd7db9.png",
     "static/media/offer1.png": "/bicycle-landing-page/static/media/offer1.d100cbbfb5c1fedd7db9.png",
@@ -47,11 +47,11 @@
     "static/media/GTBIKE_DEMO_10.jpg": "/bicycle-landing-page/static/media/GTBIKE_DEMO_10.1ac57f4d39d8d52f2eed.jpg",
     "static/media/GTBIKE_DEMO_30.jpg": "/bicycle-landing-page/static/media/GTBIKE_DEMO_30.5c00e38aea2c16e7a017.jpg",
     "index.html": "/bicycle-landing-page/index.html",
-    "main.dea50c57.css.map": "/bicycle-landing-page/static/css/main.dea50c57.css.map",
-    "main.089d1d80.js.map": "/bicycle-landing-page/static/js/main.089d1d80.js.map"
+    "main.6a86e2b9.css.map": "/bicycle-landing-page/static/css/main.6a86e2b9.css.map",
+    "main.48714b08.js.map": "/bicycle-landing-page/static/js/main.48714b08.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea50c57.css",
-    "static/js/main.089d1d80.js"
+    "static/css/main.6a86e2b9.css",
+    "static/js/main.48714b08.js"
   ]
 }
