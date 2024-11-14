@@ -58,7 +58,7 @@ const AboutUs = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="relative flex flex-col md:flex-row items-center justify-between h-auto py-16 px-4 md:px-12 lg:px-28 bg-white"
+      className="md:h-screen relative flex flex-col md:flex-row items-center justify-between h-auto py-16 px-4 md:px-12 lg:px-28 bg-white"
     >
       <motion.div
         className="z-20 max-w-lg text-center md:text-left mb-6 md:mb-0"
@@ -69,7 +69,7 @@ const AboutUs = () => {
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
           <span className="text-primary">About</span> Us
         </h2>
-        <p className="text-sm md:text-base mb-8">
+        <p className="text-md md:text-left md:text-xl mb-8">
           Discover Sphynx Bicycles, engineered for performance and built for
           durability. Our bicycles integrate advanced technology with a focus on
           sustainability and rider comfort.
